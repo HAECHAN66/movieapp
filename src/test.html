@@ -1,0 +1,27 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var xhr = new XMLHttpRequest();
+var url = 'http://apis.data.go.kr/6460000/jnFood/getNdfoodMenuList'; /*URL*/
+var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'Zvk8u7xi%2FRqZcyl2w8cERREmDR9QmygYVDJ%2Biza3WhfqdkA54mnj5L6GIcEr5JaFCUg7KinWc4g9eRvrR1oB5A%3D%3D'; /*Service Key*/
+    queryParams += '&' + encodeURIComponent('foodId') + '=' + encodeURIComponent('13'); /**/
+    queryParams += '&' + encodeURIComponent('pageSize') + '=' + encodeURIComponent('10'); /**/
+    queryParams += '&' + encodeURIComponent('startPage') + '=' + encodeURIComponent('0'); /**/
+    xhr.open('GET', url + queryParams);
+    xhr.onreadystatechange = function () {
+    if (this.readyState == 4) {
+        console.log('Status: '+this.status+'nHeaders: '+JSON.stringify(this.getAllResponseHeaders())+'nBody: '+this.responseText);
+    }
+};
+xhr.send('');
+    </script>
+    
+</body>
+</html> -->
